@@ -14,7 +14,9 @@ export const Menu = ({ className }: MenuProps) => {
         <div className={classNames(styles.root, className)}>
             <h2 className={styles.h2}>Category</h2>
             <hr className={styles.hr} />
-            <a className={styles.link}>Camera</a>
+            <a className={styles.link} href="">
+                Camera
+            </a>
             <a href="/" className={styles.link}>
                 Lens
             </a>
