@@ -1,0 +1,26 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 34px;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 10px;
+}
+.svg {
+  width: 40px;
+  height: 40px;
+}
+.buttonsvg {
+  padding: 0px;
+  background-color: #ffffff;
+}
+.signoutbtn {
+  padding: 2px;
+  font-size: 25px;
+  border: 0px solid transparent;
+  border-radius: 10px;
+  background-color: #20b8e4;
+  box-shadow: 0.71px 0.71px 3px black;
+  color: #ffffff;
+}

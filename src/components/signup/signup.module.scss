@@ -1,0 +1,44 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0.71px 0.71px 3px black;
+}
+.signupspan {
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+.input {
+  font-size: 25px;
+  border: 1px solid black;
+  border-top: 0px solid black;
+  border-left: 0px solid black;
+  border-right: 0px solid black;
+  padding: 0px;
+}
+.span {
+  font-size: 18px;
+}
+.signupbtn {
+  padding: 2px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  width: 70%;
+}
+.signupdiv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.link {
+  text-align: center;
+}
+.welcomespan {
+  text-align: center;
+  font-size: 18px;
+}

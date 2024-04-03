@@ -1,0 +1,19 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #ffffff;
+  text-align: start;
+}
+.h2 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.hr {
+  width: 100%;
+}
+.link {
+  font-size: 15px;
+  font-weight: 400;
+}
