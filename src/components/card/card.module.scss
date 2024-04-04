@@ -2,24 +2,27 @@
   display: flex;
   border-radius: 20px;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 0px;
   border: 0px solid black;
   box-shadow: 0.71px 0.71px 3px black;
   background-color: #ffffff;
   text-align: start;
+  height: 470px;
+  justify-content: center;
+  width: 400px;
 }
 .nameanddescriptiondiv {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 10px;
   flex-grow: 1;
 }
 .titlespan {
-  font-size: 30px;
+  font-size: 20px;
   padding: 0px;
 }
 .descriptionsspam {
-  font-size: 20px;
+  font-size: 15px;
 }
 .priceandreservediv {
   display: flex;
@@ -27,7 +30,9 @@
   align-items: start;
   align-content: center;
   justify-content: center;
-  padding: 15px;
+  padding: 10px;
+  width: 100%;
+  height: 150px;
 }
 .reservebutton {
   display: flex;
@@ -38,12 +43,21 @@
   font-size: 30px;
 }
 .perdayspan {
-  font-size: 20px;
+  font-size: 14px;
 }
 .pricespan {
-  font-size: 30px;
+  font-size: 20px;
 }
 .cardimg {
   display: inline;
-  width: 320px;
+  width: 85%;
+}
+.description {
+  font-size: 13px;
+}
+.imgdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
 }

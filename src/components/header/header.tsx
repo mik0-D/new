@@ -1,7 +1,6 @@
 import classNames from 'classnames';
 import styles from './header.module.scss';
 import { Logo } from '../logo/logo';
-import { Search } from '../search/search';
 import { Icon } from '../icon/icon';
 
 export interface HeaderProps {
@@ -17,7 +16,6 @@ export const Header = ({ className }: HeaderProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <Logo />
-            <Search />
             <Icon />
         </div>
     );

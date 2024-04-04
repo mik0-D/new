@@ -1,5 +1,6 @@
 import classNames from 'classnames';
 import styles from './icon.module.scss';
+import Search_module from '../search/search.module.scss';
 
 export interface IconProps {
     className?: string;
@@ -13,12 +14,17 @@ export const Icon = ({ className }: IconProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <button className={styles.buttonsvg}>
-                <img src="/src/assets/cart.svg" className={styles.svg} />
+                <img src="/src/assets/carts.svg" className={styles.svg} />
             </button>
             <button className={styles.buttonsvg}>
                 <img src="/src/assets/message.svg" className={styles.svg} />
             </button>
-            <button className={styles.signoutbtn} onClick={undefined}>Sign out</button>
+            <button className={styles.buttonsvg}>
+                <img src="/src/assets/account.svg" className={styles.svg} />
+            </button>
+            <button className={styles.signoutbtn} onClick={undefined}>
+                Sign out
+            </button>
         </div>
     );
 };

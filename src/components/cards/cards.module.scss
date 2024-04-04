@@ -1,8 +1,12 @@
 .root {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 20px;
-  row-gap: 15px;
   flex-wrap: wrap;
-  width: 85vw;
+  align-items: center;
+  justify-items: center;
+  gap: 15px;
+  justify-content: center;
+  width: 73vw;
+  align-content: center;
 }

@@ -21,7 +21,8 @@ export default createBoard({
     ),
     isSnippet: true,
     environmentProps: {
-        windowWidth: 1227,
-        canvasHeight: 285.3333333333333,
+        windowWidth: 1335,
+        canvasHeight: 470.53406492912666,
+        canvasWidth: 397,
     },
 });

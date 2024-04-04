@@ -1,5 +1,6 @@
 import classNames from 'classnames';
 import styles from './menu.module.scss';
+import { Search } from '../search/search';
 
 export interface MenuProps {
     className?: string;
@@ -9,9 +10,11 @@ export interface MenuProps {
  * This component was created using Codux's Default new component template.
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
+
 export const Menu = ({ className }: MenuProps) => {
     return (
         <div className={classNames(styles.root, className)}>
+            <Search />
             <h2 className={styles.h2}>Category</h2>
             <hr className={styles.hr} />
             <a className={styles.link} href="">
