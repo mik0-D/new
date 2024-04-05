@@ -1,2 +1,28 @@
 .root {
 }
+.boddiv {
+  border: 0px solid black;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin: 0px;
+}
+.btndiv {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+  padding: 10px 0px 0px;
+}
+.columndiv {
+  width: 20%;
+  padding: 20px;
+}
+.btndiv {
+  text-align: start;
+  flex-direction: column;
+}
+.btn {
+  border-radius: 0px;
+}

@@ -33,7 +33,7 @@ export const Signup = ({ className }: SignupProps) => {
             <br />
             <div className={styles.signupdiv}>
                 <button className={styles.signupbtn}>Sign up</button>
-                <a href="/" className={styles.link}>
+                <a href="/components/signin/signin" className={styles.link}>
                     Already have an account?
                 </a>
             </div>
