@@ -17,7 +17,7 @@ export const Menu = ({ className }: MenuProps) => {
             <Search />
             <h2 className={styles.h2}>Category</h2>
             <hr className={styles.hr} />
-            <a className={styles.link} href="">
+            <a className={styles.link} href="./components/signin/signin">
                 Camera
             </a>
             <a href="/" className={styles.link}>
