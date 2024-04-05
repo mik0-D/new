@@ -6,7 +6,9 @@ export default createBoard({
     Board: () => <Dropdown />,
     isSnippet: true,
     environmentProps: {
-        canvasHeight: 694,
+        canvasHeight: 766,
         canvasWidth: 2764,
+        windowWidth: 1024,
+        windowHeight: 768,
     },
 });
